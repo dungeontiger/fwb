@@ -1,0 +1,14 @@
+<head>
+	<title>Fun With Books</title>
+	<link rel="stylesheet" type="text/css" href="funwithbooks.css"/>
+	<script type="text/javascript">
+		function clickMenu(requestedPage)
+		{
+			var controls = document.getElementsByName("thePage");
+			controls[0].value = requestedPage;
+			document.forms[0].submit();
+		}
+	</script>
+	<script type="text/javascript" src="verify.js"></script>
+	<!--#config errmsg="[Server side script processing failed.]"-->
+</head>

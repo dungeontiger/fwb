@@ -1,0 +1,196 @@
+body
+{
+	background-color: rgb(241, 250, 223);
+	font-family: Georgia, "Times New Roman",Times;
+}
+
+div.titleBanner
+{
+	text-align:center;
+	font-size:22pt;
+	font-weight:bold;
+}
+
+div.subTitleBanner
+{
+	text-align:center;
+	font-size:14pt;
+	font-style:italic;
+}
+
+table.mainTable 
+{
+	margin-top:20px
+}
+
+div.footerText
+{
+	font-size:8pt;
+	text-align:center
+}
+
+img.bookCover
+{
+	border: solid black 1px
+}
+
+td.mainCenterColumn
+{
+	width:100%;
+	vertical-align:top;
+	background-color: white;
+	padding: 5px;
+	border: solid black 1px;
+}
+
+table.menu
+{
+	width:100%;
+	margin-top: 5px;
+}
+
+td.menuItem
+{
+	white-space:nowrap;
+	padding-left:10px;
+}
+
+div.sectionHeader
+{
+	text-align:center;
+	font-size:14pt;
+	font-weight:bold;
+	padding-bottom: 5px;
+}
+
+div.subSectionHeader
+{
+	font-weight:bold;
+	padding-bottom: 5px;
+}
+
+td.logoContainer
+{
+	vertical-align:middle;
+}
+
+div.para
+{
+	padding-top: 8px;
+}
+
+td.bannerBlock
+{
+	vertical-align:top; 
+	padding-left:10px;
+}
+
+img.bookDetails
+{
+	border: solid black 1px;
+	float: left;
+	margin: 4px;
+}
+
+div.center
+{
+	text-align:center;
+}
+
+a:link
+{
+	color:blue
+}
+
+a:visited
+{
+	color:blue
+}
+
+a:hover
+{
+	color:red
+}
+
+form.applicationForm
+{
+	margin-top: 10px
+}
+
+.superscript
+{
+	vertical-align:top;
+	font-size:75%;
+}
+
+.topSpace
+{
+	margin-top: 10px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+div.indent
+{
+	padding-left:20px;
+}
+
+table.board
+{
+	border: solid black 1px;
+	border-collapse:collapse;
+	margin-left: 20px;
+}
+
+span.bold
+{
+	font-weight:bold;
+}
+
+td.board
+{
+	border: solid black 1px;
+	padding: 2px;
+}
+
+th.board
+{
+	border: solid black 1px;
+	padding: 2px;
+}
+
+
+table.rates
+{
+	border: solid black 1px;
+}
+
+td.bookImageColumn
+{
+	border-top: 5px solid gray; 
+	border-left: 5px solid gray; 
+	border-bottom: 5px solid gray; 
+	vertical-align:top
+}
+
+td.bookIconsColumn
+{
+	vertical-align:top;
+}
+
+td.bookColumn
+{
+	vertical-align:top;
+	border-top: 5px solid gray; 
+	border-right: 5px solid gray; 
+	border-bottom: 5px solid gray; 
+	width:25%
+}
+
+span.bookTitle
+{
+	font-style:italic;
+}

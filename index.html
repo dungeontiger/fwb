@@ -1,0 +1,48 @@
+<html>
+	<!--#include virtual="head.html"-->
+<body>
+	<!--#include virtual="header.html"-->
+	<table class="mainTable">
+		<tr>
+			<td class="bookIconsColumn">
+				<!--#include virtual="leftBookColumn.html"-->
+			</td>
+			<td class="mainCenterColumn">
+				<!--#if expr="${QUERY_STRING}='thePage=home'"-->
+				<!--#include virtual="home.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=news'"-->
+				<!--#include virtual="news.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=about'"-->
+				<!--#include virtual="about.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=apply'"-->
+				<!--#include virtual="apply.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=fundRaising'"-->
+				<!--#include virtual="fundRaising.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=board'"-->
+				<!--#include virtual="board.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=tips'"-->
+				<!--#include virtual="tips.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=links'"-->
+				<!--#include virtual="links.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=publishing'"-->
+				<!--#include virtual="publishing.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=sponsoring'"-->
+				<!--#include virtual="sponsoring.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=volunteers'"-->
+				<!--#include virtual="volunteers.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=books'"-->
+				<!--#include virtual="books.html"-->
+				<!--#elif expr="${QUERY_STRING}='thePage=email'"-->
+				<!--#include virtual="email.html"-->
+				<!--#else-->
+				<!--#include virtual="home.html"-->
+				<!--#endif-->
+			</td>
+			<td class="bookIconsColumn">
+				<!--#include virtual="rightBookColumn.html"-->
+			</td>
+		</tr>
+	</table>
+	<!--#include virtual="footer.html"-->
+</body>
+</html>
